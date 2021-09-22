@@ -22,7 +22,7 @@ class BasicArray{
             for(int p = 0; p < 3; p++){
                 System.out.print(arr[i][p] + " ");
             }
-            System.out.println();
+            System.out.println(); 
         }
     }
     
