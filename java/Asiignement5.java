@@ -20,7 +20,7 @@ class BasicArray{
         }
         for(int i = 0; i < 2; i++){
             for(int p = 0; p < 3; p++){
-                System.out.print(arr[i][p] + " ");
+                System.out.print(arr[i][p] + " "); 
             }
             System.out.println(); 
         }
