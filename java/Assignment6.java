@@ -33,7 +33,7 @@ class B{
                 arr[i + 1] = sum + p;
                 //System.out.print( " " + sum);
             }
-            System.out.println();
+            System.out.println(); 
         }
     }
 }
