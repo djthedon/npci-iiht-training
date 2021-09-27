@@ -1,5 +1,5 @@
 a = int(input("Enter the range"))
-b = int(input("Enter the value"))
+b = int(input("Enter the distance"))
 
 p = 1
 
