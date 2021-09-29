@@ -19,3 +19,15 @@ with open('sample.txt', 'w') as r:
             p += 1
         r.write(i[p])
         r.write('\n')
+
+result = list()
+result1 = list()
+c = ''
+
+with open('sample.txt', 'r') as r:
+    r.readline()
+    for i in r.readlines():
+        tmp = i.split(',')
+        result.append((tmp[0], tmp[1], tmp[2][0:len(tmp[2]) - 1]))
+
+print(tuple(result))    
