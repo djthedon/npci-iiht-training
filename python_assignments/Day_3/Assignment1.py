@@ -17,3 +17,7 @@ c = input_dic_list(b)
 print(c)
 
 # 3
+
+d = sorted(c.items(), key = lambda x : x, reverse = True)
+
+print(d)
